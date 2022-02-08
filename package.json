@@ -1,6 +1,6 @@
 {
   "name": "@cheshirecat/svgi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "cheshirecat <ca.leduc@me.com>",
   "license": "ISC",
   "description": "A lightweight SVG icon maker with TypeScript support",

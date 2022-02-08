@@ -54,5 +54,5 @@ export function makeIcon(family: string, name: string, classes?: string[]) {
     if (classes && classes.length) {
         classList.push(...classes)
     }
-    return `<svg xmlns="http://www.w3.org/2000/svg" class=${classList.filter((e) => e.length).join(' ')} data-name=${name} role="img" aria-hidden="true" viewBox=${`0 0 ${icon.width} ${icon.height}`}>${icon.paths.map((path, p) => `<path fill="currentColor" class=${['path', `path-${p + 1}`].join(' ')} d=${path} />`)}</svg>`
+    return `<svg xmlns="http://www.w3.org/2000/svg" class="${classList.filter((e) => e.length).join(' ')}" data-name="${name}" role="img" aria-hidden="true" viewBox="${`0 0 ${icon.width} ${icon.height}`}">${icon.paths.map((path, p) => `<path fill="currentColor" class="${['path', `path-${p + 1}`].join(' ')}" d="${path}" />`)}</svg>`
 }
