@@ -58,8 +58,8 @@ export function getIcon(family: string, name: string): IconObj {
   const height =
     isStartArray && startval.length > 3
       ? startval[3] ?? 0
-      : typeof endval === "number"
-      ? endval ?? 0
+      : typeof midval === "number"
+      ? midval ?? 0
       : 0;
   const paths = strval.split("|");
 
